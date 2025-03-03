@@ -247,4 +247,4 @@ if not df_logs.empty:
     # Salvar em Excel com o novo nome de arquivo
     save_to_excel(df_logs, output_excel_file)
 else:
-    print("Nenhuma linha foi processada com sucesso.")
+    print("Nenhuma linha foi processada - erro.")
